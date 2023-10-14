@@ -14,8 +14,9 @@ we start by importing the user engagement dataset to enable us understand the en
 #import packages
 import pandas as pd
 from datetime import datetime
-
-df=pd.read_csv('takehome_user_engagement.csv')
+df=pd.read_csv('C:/Users/Consultant/Downloads/Project_Louden/Project_Louden/takehome_user_engagement.csv')
+df.head(10)
+#df=pd.read_csv('takehome_user_engagement.csv')
 df4=df.copy()
 df8=df.copy()
 df.head(10)
@@ -70,7 +71,7 @@ for user, group in group_users:
     login_counts = rolling_window.count()
     if any(login_counts >= 3):
         adopted_users.append(user)
-print("Adopted Users:", adopted_users)
+#print("Adopted Users:", adopted_users)
 
 """out of the 8823 users, 2248 are adopted users"""
 
@@ -79,8 +80,8 @@ len(adopted_users)
 adoptedu=pd.DataFrame(adopted_users)
 adoptedu.columns=['adopted_usersid']
 adoptedu
-
-dfhome=pd.read_csv('takehome_users.csv',encoding='latin1')
+dfhome=pd.read_csv('C:/Users/Consultant/Downloads/Project_Louden/Project_Louden/takehome_users.csv')
+#dfhome=pd.read_csv('takehome_users.csv',encoding='latin1')
 dfhome.info()
 
 """we will perform an inner join on the adapted users dataframe to be able to show know the adopted users and look at the characteristics if there are trends that can be proposed to new users"""
@@ -361,5 +362,3 @@ loaded_model = mlflow.sklearn.load_model("best_model")
 pred1=loaded_model.predict(X_test1.head(5))
 pred1
 #X_test.head(3)
-
-!mlflow ui --port 5000 &

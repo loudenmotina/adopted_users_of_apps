@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Consultant/Downloads/Project_Louden/Project_Louden/mlruns/0/c69a45b8d7c74d16bf189ae797e84ee5/artifacts
+end_time: 1697239218880
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c69a45b8d7c74d16bf189ae797e84ee5
+run_name: sassy-hawk-26
+run_uuid: c69a45b8d7c74d16bf189ae797e84ee5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697239201243
+status: 3
+tags: []
+user_id: Consultant

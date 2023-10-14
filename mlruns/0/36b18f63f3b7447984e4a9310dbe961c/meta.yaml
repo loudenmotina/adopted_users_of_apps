@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Consultant/Downloads/Project_Louden/Project_Louden/mlruns/0/36b18f63f3b7447984e4a9310dbe961c/artifacts
+end_time: 1697239153925
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 36b18f63f3b7447984e4a9310dbe961c
+run_name: orderly-worm-141
+run_uuid: 36b18f63f3b7447984e4a9310dbe961c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697239142422
+status: 3
+tags: []
+user_id: Consultant

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Consultant/Downloads/Project_Louden/Project_Louden/mlruns/0/65549586e86849c0b06bc9c4820b5582/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 65549586e86849c0b06bc9c4820b5582
+run_name: resilient-loon-411
+run_uuid: 65549586e86849c0b06bc9c4820b5582
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697255108830
+status: 1
+tags: []
+user_id: Consultant

@@ -1,0 +1,13 @@
+aliases: []
+creation_timestamp: 1697243789037
+current_stage: Production
+description: ''
+last_updated_timestamp: 1697255600729
+name: adopted_user_pred1
+run_id: c69a45b8d7c74d16bf189ae797e84ee5
+run_link: ''
+source: file:///C:/Users/Consultant/Downloads/Project_Louden/Project_Louden/mlruns/0/c69a45b8d7c74d16bf189ae797e84ee5/artifacts/best_model
+status: READY
+status_message: null
+user_id: null
+version: 1
